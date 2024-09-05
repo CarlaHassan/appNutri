@@ -1,8 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Nutrición en Consciencia
     </ion-title>
+    <!-- Botón para ir a la página de registro -->
+    <ion-buttons slot="end">
+      <ion-button class="custom-button" [routerLink]="['/pag2']">
+        Registrarse
+      </ion-button>
+    </ion-buttons> 
   </ion-toolbar>
 </ion-header>
 
@@ -14,7 +20,11 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
+    <strong>¡Bienvenido a Nutrición en Consciencia!
+      Nos alegra tenerte en nuestra comunidad. Nuestra app te ayuda a crear recetas saludables 
+      con los ingredientes que ya tienes en casa, haciendo tu alimentación fácil y placentera. 
+      Explora nuestras funciones y disfruta de una dieta equilibrada sin complicaciones. 
+      ¡Estamos aquí para ayudarte en cada paso!</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
 </ion-content>

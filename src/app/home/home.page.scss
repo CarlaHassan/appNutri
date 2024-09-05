@@ -1,3 +1,10 @@
+
+/* Cambia el color de fondo de la página */
+ion-content {
+  --background: #e33da6; /* Color de fondo dinámico */
+}
+
+
 #container {
   text-align: center;
 
@@ -11,17 +18,29 @@
 #container strong {
   font-size: 20px;
   line-height: 26px;
+
+  color: #4ecef5; /* Color del texto fuerte */
 }
 
 #container p {
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
+  color: #450833; /* Color del párrafo */
 
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
+  color: #0056b3; /* Color del enlace */
 }
+
+/* Estilos del botón */
+.custom-button {
+  background-color: #83a9fb !important; /* Color de fondo */
+  color: white !important;              /* Color del texto */
+  border-radius: 20px;                  /* Esquinas redondeadas */
+  padding: 10px;                   /* Ajusta el tamaño del botón si es necesario */
+}
+
