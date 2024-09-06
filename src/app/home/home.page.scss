@@ -1,5 +1,5 @@
 ion-header {
-  --background: #8f448f; 
+  --background: #daa9da; 
 }
 
 /* Estilo del contenido principal */
@@ -11,7 +11,7 @@ ion-content {
 }
 
 .header-title {
-  font-size: 1.5rem; /* Tamaño de fuente */
+  font-size: 1.5rem; 
   text-align: center;
   margin: 0 auto;
   width: 100%;
@@ -20,27 +20,27 @@ ion-content {
 .header-logo {
   height: 40px; 
   width: auto;  
-  margin-left: 10px; /* Espacio a la izquierda */
+  margin-left: 10px; 
   display: block; /* Comportamiento en bloque */
 }
 
 .custom-button {
-  background-color: #f2662b !important; 
+  background-color: #4b2a00 !important; 
   color: white !important;              
   border-radius: 20px;                  
-  padding: 10px;                        /* Tamaño del botón */
+  padding: 10px;                           /* Tamaño del botón */
   transition: background-color 0.3s ease; /* Animación de color de fondo */
 }
 
 .custom-button:hover {
-  background-color: #e04d28; /* Color de fondo en hover */
+  background-color: #e04d28; 
 }
 
 .welcome-card {
-  background-color: white; /* Color de fondo del card */
+  background-color: white; 
   border-radius: 10px;       /* Esquinas redondeadas */
-  padding: 15px;             /* Espaciado interno */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 15px;           
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .welcome-card .TituloWelcome{
@@ -93,17 +93,15 @@ ion-content {
   padding: 0px 10px; /* Añadir espaciado horizontal para evitar se peguen a los bordes */
 }
 
-
-
 .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 10px; /* Espaciado interno */
+  padding: 0 10px; 
 }
 
 img {
-  width: 80%; /* Hacer las imágenes más pequeñas */
+  width: 80%; 
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -112,8 +110,8 @@ img {
 
 /* Efecto zoom al pasar el cursor */
 img:hover {
-  transform: scale(1.1); /* Efecto de zoom al hacer hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Añadir sombra más pronunciada en el hover */
+  transform: scale(1.1); /* Efecto de zoom  */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
 
 
