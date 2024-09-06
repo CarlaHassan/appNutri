@@ -1,0 +1,60 @@
+/* Cambiar color de fondo de la página */
+ion-content {
+  --background: #f0f0f0 !important; /* Color de fondo de la página */
+}
+
+/* Cambiar color de fondo del header */
+ion-header {
+  --background: #4e60b9 !important; /* Color de fondo del header */
+}
+
+/* Cambiar color del texto del título del header */
+ion-title {
+  color: #ffffff !important; /* Color del texto del título del header */
+}
+
+/* Cambiar color de los items del formulario */
+ion-item {
+  --background: #ffffff !important; /* Color de fondo de los items del formulario */
+  --color: #333333 !important; /* Color del texto de los items del formulario */
+}
+
+/* Cambiar color del label del formulario */
+ion-label {
+  color: #555555 !important; /* Color del texto del label */
+}
+
+/* Cambiar color del input del formulario */
+ion-input {
+  --color: #000000 !important; /* Color del texto dentro del input */
+  --placeholder-color: #888888 !important; /* Color del placeholder */
+}
+
+/* Cambiar color del selector de fecha */
+ion-datetime {
+  --background: #ffffff !important; /* Color de fondo del selector de fecha */
+  --color: #000000 !important; /* Color del texto dentro del selector de fecha */
+}
+
+/* Cambiar color del botón de registro */
+ion-button {
+  --background: #4CAF50 !important; /* Color de fondo del botón */
+  --color: #ffffff !important; /* Color del texto del botón */
+}
+
+/* Cambiar color del checkbox */
+ion-checkbox {
+  --color: #4CAF50 !important; /* Color del checkbox */
+}
+
+/* Estilo para el asterisco que indica campo obligatorio */
+.required {
+  color: red;
+  font-weight: bold;
+}
+.header-logo {
+  height: 40px; /* Ajusta el tamaño de la imagen */
+  width: auto;
+  cursor: pointer;  /* Cambia el cursor al pasar el mouse por la imagen */
+  margin-right: 10px; /* Espacio entre la imagen y el botón de retroceso */
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-pag2',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Pag2Page implements OnInit {
 
-  constructor() { }
+  constructor(private navCtrl: NavController) {}
 
   ngOnInit() {
   }
-
+  goToHome() {
+    this.navCtrl.navigateRoot('/home');  // Navega al home
+  }
 }

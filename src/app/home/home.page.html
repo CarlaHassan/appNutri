@@ -1,30 +1,40 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
+    <ion-buttons slot="start">
+      <img src="assets/img/mob3.jpg" alt="Logo" class="header-logo">
+    </ion-buttons>
+    <ion-title class="header-title">
       Nutrición en Consciencia
     </ion-title>
-    <!-- Botón para ir a la página de registro -->
     <ion-buttons slot="end">
-      <ion-button class="custom-button" [routerLink]="['/pag2']">
-        Registrarse
+      <ion-button class="custom-button bounce-button" [routerLink]="['/pag2']">
+        Iniciar Sesión
       </ion-button>
-    </ion-buttons> 
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Bienvenida</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>¡Bienvenido a Nutrición en Consciencia!
+  <ion-card class="fade-in">
+    <ion-card-header>
+      <ion-card-title>¡Bienvenido a Nutrición en Consciencia!</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
       Nos alegra tenerte en nuestra comunidad. Nuestra app te ayuda a crear recetas saludables 
       con los ingredientes que ya tienes en casa, haciendo tu alimentación fácil y placentera. 
       Explora nuestras funciones y disfruta de una dieta equilibrada sin complicaciones. 
-      ¡Estamos aquí para ayudarte en cada paso!</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+      ¡Estamos aquí para ayudarte en cada paso!
+    </ion-card-content>
+  </ion-card>
 </ion-content>
+
+
+
+
+

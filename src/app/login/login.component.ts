@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular'; // Importa NavController
 
 @Component({
   selector: 'app-login',
@@ -11,7 +12,7 @@ export class LoginComponent implements OnInit {
   email: string = '';
   password: string = '';
 
-  constructor() { }
+  constructor(private navCtrl: NavController) { } // Inyecta NavController
 
   ngOnInit() {}
 
@@ -20,8 +21,13 @@ export class LoginComponent implements OnInit {
     // Aquí puedes implementar la lógica de autenticación
     console.log('Email:', this.email);
     console.log('Password:', this.password);
-
     // Puedes agregar validaciones y llamadas a un servicio de autenticación
   }
 
+  // Función para navegar a la página de registro
+  goToRegistro() {
+    this.navCtrl.navigateForward('/registro'); // Navegar a la página de registro
+  }
+
 }
+
