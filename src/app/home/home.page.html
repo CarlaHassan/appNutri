@@ -7,7 +7,7 @@
       Nutrición en Consciencia
     </ion-title>
     <ion-buttons slot="end">
-      <ion-button class="custom-button bounce-button" [routerLink]="['/pag2']">
+      <ion-button class="custom-button" [routerLink]="['/pag2']">
         Iniciar Sesión
       </ion-button>
     </ion-buttons>
@@ -21,7 +21,7 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-card class="fade-in">
+  <ion-card class="welcome-card">
     <ion-card-header>
       <ion-card-title>¡Bienvenido a Nutrición en Consciencia!</ion-card-title>
     </ion-card-header>
@@ -32,6 +32,16 @@
       ¡Estamos aquí para ayudarte en cada paso!
     </ion-card-content>
   </ion-card>
+
+  <!-- Animación para el texto -->
+  <div class="animated-text">
+    <p>Explora nuevas recetas y consejos de nutrición</p>
+  </div>
+
+  <!-- Animación para una imagen -->
+  <div class="animated-image">
+    <img src="assets/img/apple.jpg" alt="Nutrición">
+  </div>
 </ion-content>
 
 
