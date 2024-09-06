@@ -1,10 +1,10 @@
 ion-header {
-  --background: #8f448f !important; /* encabezado */
+  --background: #8f448f; 
 }
 
 /* Estilo del contenido principal */
 ion-content {
-  --background: #a90e8d; 
+  --background: #eb90eb;  
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Para que el contenido quede repartido y el carrusel quede al final */
@@ -37,10 +37,14 @@ ion-content {
 }
 
 .welcome-card {
-  background-color: #e0ceda; /* Color de fondo del card */
+  background-color: white; /* Color de fondo del card */
   border-radius: 10px;       /* Esquinas redondeadas */
   padding: 15px;             /* Espaciado interno */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.welcome-card .TituloWelcome{
+  color: black;
 }
 
 /* Animaciones */
@@ -78,14 +82,18 @@ ion-content {
 
 /* Ajuste del carrusel*/
 .image-slider {
+ /*  border: black solid 2px; */
   height: 150px;  
   margin-top: 20px; /* Espacio en la parte superior */
   margin-bottom: 30px; /* Espacio en la parte inferior */
   --bullet-background: #f2662b; 
   display: flex;
-  justify-content: center; /* Centrar el carrusel horizontalmente */
-  padding: 0 10px; /* Añadir espaciado horizontal para evitar se peguen a los bordes */
+  justify-content: space-evenly; 
+  /* Centrar el carrusel horizontalmente */
+  padding: 0px 10px; /* Añadir espaciado horizontal para evitar se peguen a los bordes */
 }
+
+
 
 .swiper-slide {
   display: flex;
