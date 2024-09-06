@@ -8,6 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class HomePage implements OnInit {
   currentTime: string = ''; // Inicializa currentTime con una cadena vacía
 
+  // Opciones para el carrusel de imágenes
+  slideOpts = {
+    initialSlide: 0,
+    speed: 400,
+    spaceBetween: 10, // Separación entre las imágenes
+    slidesPerView: 1, // Muestra una imagen a la vez
+  };
+
   constructor() { }
 
   ngOnInit() {

@@ -4,7 +4,7 @@
       <img src="assets/img/mob3.jpg" alt="Logo" class="header-logo">
     </ion-buttons>
     <ion-title class="header-title">
-      Nutrición en Consciencia
+      Hola!
     </ion-title>
     <ion-buttons slot="end">
       <ion-button class="custom-button" [routerLink]="['/pag2']">
@@ -21,6 +21,7 @@
     </ion-toolbar>
   </ion-header>
 
+  <!-- Card de bienvenida -->
   <ion-card class="welcome-card">
     <ion-card-header>
       <ion-card-title>¡Bienvenido a Nutrición en Consciencia!</ion-card-title>
@@ -38,11 +39,20 @@
     <p>Explora nuevas recetas y consejos de nutrición</p>
   </div>
 
-  <!-- Animación para una imagen -->
-  <div class="animated-image">
-    <img src="assets/img/apple.jpg" alt="Nutrición">
-  </div>
+  <!-- Carrusel de imágenes con navegación horizontal -->
+  <ion-slides pager="true" class="image-slider" options="slideOpts">
+    <ion-slide>
+      <img src="assets/img/emparedado.jpeg" alt="Receta 1" class="animated-image">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/pescado.jpeg" alt="Receta 2" class="animated-image">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/frutasavena.jpeg" alt="Receta 3" class="animated-image">
+    </ion-slide>
+  </ion-slides>
 </ion-content>
+
 
 
 
