@@ -1,10 +1,10 @@
 ion-header {
-  --background: #8f448f !important; /* Color del encabezado */
+  --background: #8f448f !important; /* encabezado */
 }
 
 /* Estilo del contenido principal */
 ion-content {
-  --background: #ea69b4; /* Color de fondo */
+  --background: #a90e8d; 
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Para que el contenido quede repartido y el carrusel quede al final */
@@ -18,16 +18,16 @@ ion-content {
 }
 
 .header-logo {
-  height: 40px; /* Altura de la imagen */
-  width: auto;  /* Mantener proporción */
+  height: 40px; 
+  width: auto;  
   margin-left: 10px; /* Espacio a la izquierda */
   display: block; /* Comportamiento en bloque */
 }
 
 .custom-button {
-  background-color: #f2662b !important; /* Color de fondo */
-  color: white !important;              /* Color del texto */
-  border-radius: 20px;                  /* Esquinas redondeadas */
+  background-color: #f2662b !important; 
+  color: white !important;              
+  border-radius: 20px;                  
   padding: 10px;                        /* Tamaño del botón */
   transition: background-color 0.3s ease; /* Animación de color de fondo */
 }
@@ -37,7 +37,7 @@ ion-content {
 }
 
 .welcome-card {
-  background-color: #ffffff; /* Color de fondo del card */
+  background-color: #e0ceda; /* Color de fondo del card */
   border-radius: 10px;       /* Esquinas redondeadas */
   padding: 15px;             /* Espaciado interno */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
@@ -76,22 +76,22 @@ ion-content {
   }
 }
 
-/* Ajuste del carrusel de imágenes */
+/* Ajuste del carrusel*/
 .image-slider {
-  height: 150px; /* Ajustar altura del carrusel */
+  height: 150px;  
   margin-top: 20px; /* Espacio en la parte superior */
   margin-bottom: 30px; /* Espacio en la parte inferior */
-  --bullet-background: #f2662b; /* Color del paginador */
+  --bullet-background: #f2662b; 
   display: flex;
   justify-content: center; /* Centrar el carrusel horizontalmente */
-  padding: 0 10px; /* Añadir espaciado horizontal para evitar que las imágenes se peguen a los bordes */
+  padding: 0 10px; /* Añadir espaciado horizontal para evitar se peguen a los bordes */
 }
 
 .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 10px; /* Espaciado interno para las imágenes */
+  padding: 0 10px; /* Espaciado interno */
 }
 
 img {
