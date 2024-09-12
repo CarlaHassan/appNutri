@@ -5,7 +5,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { Pag2PageRoutingModule } from './pag2-routing.module';
 import { Pag2Page } from './pag2.page';
-import { LoginComponent } from '../login/login.component'; // Asegúrate de que la ruta sea correcta
+import { LoginComponent } from '../login/login.component'; 
 
 @NgModule({
   imports: [
@@ -16,7 +16,7 @@ import { LoginComponent } from '../login/login.component'; // Asegúrate de que 
   ],
   declarations: [
     Pag2Page,
-    LoginComponent // Declara el componente de login aquí
+    LoginComponent // Declarar el componente de login aquí
   ]
 })
 export class Pag2PageModule {}

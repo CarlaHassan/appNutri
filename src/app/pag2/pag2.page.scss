@@ -1,8 +1,28 @@
 .header-logo {
-    height: 40px; 
-    width: auto;  
-    margin-left: 10px; /* Espacio a la izquierda */
-    display: block;
-    cursor: pointer;  /* Cambia el cursor para indicar que es clickeable */
+  height: 40px;
+  width: auto;
+  margin-left: 10px;
+  display: block;
+  cursor: pointer; /* Indica que es clicable */
+}
+
+ion-header {
+  --background: #c01fc0 !important; /* Cambia este color por el que desees */
+}
+
+.recover-password {
+  text-align: center; /* Centra el enlace */
+  margin-top: 20px; /* Espaciado hacia arriba */
+
+  a {
+    color: #f2662b; /* Color del enlace */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem; /* Tamaño de fuente */
+    transition: color 0.3s ease; /* Animación del color */
   }
-  
+
+  a:hover {
+    color: #e04d28; /* Color del enlace al pasar el mouse */
+  }
+}

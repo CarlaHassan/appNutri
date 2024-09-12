@@ -1,31 +1,36 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
-export class HomePage implements OnInit {
-  currentTime: string = ''; // Inicializa currentTime con una cadena vacía
+export class HomePage {
+  isModalOpen = false;
+  modalTitle = '';
+  modalContent = '';
+  modalImage = '';
 
   // Opciones para el carrusel de imágenes
   slideOpts = {
     initialSlide: 0,
     speed: 400,
-    spaceBetween: 10, // Separación entre las imágenes
-    slidesPerView: 1, // Muestra una imagen a la vez
+    spaceBetween: 10,
+    slidesPerView: 1,
   };
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-    this.updateTime();
-    setInterval(() => this.updateTime(), 1000); // Actualiza la hora cada segundo
+  openModal(image: string, title: string) {
+    this.modalImage = image;
+    this.modalTitle = title;
+    this.modalContent = 'Descripción de la receta seleccionada';
+    this.isModalOpen = true;
   }
 
-  updateTime() {
-    const date = new Date();
-    this.currentTime = date.toLocaleTimeString();
+  closeModal() {
+    this.isModalOpen = false;
   }
 }
+
 

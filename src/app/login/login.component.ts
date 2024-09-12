@@ -16,17 +16,17 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {}
 
-  // Función para manejar el inicio de sesión
+  //inicio de sesión
   login() {
-    // Aquí puedes implementar la lógica de autenticación
+    //lógica de autenticación
     console.log('Email:', this.email);
     console.log('Password:', this.password);
-    // Puedes agregar validaciones y llamadas a un servicio de autenticación
+    // Se pueden agregar validaciones y llamadas a un servicio de autenticación
   }
 
-  // Función para navegar a la página de registro
+  
   goToRegistro() {
-    this.navCtrl.navigateForward('/registro'); // Navegar a la página de registro
+    this.navCtrl.navigateForward('/registro'); 
   }
 
 }

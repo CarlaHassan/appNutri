@@ -1,4 +1,5 @@
-ingresoLogin {
-    background: white
-
-}
+/* Cambiar color del botón de registro */
+ion-button {
+    --background: #3123ee !important; 
+    --color: #ffffff !important; 
+  }

@@ -1,10 +1,13 @@
 ion-header {
-  --background: #daa9da; 
+  ion-toolbar {
+    --background: #8f448f !important; /* Cambiar el color del fondo */
+    --color: #ffffff !important; /* Cambiar el color del texto, si es necesario */
+  }
 }
 
 /* Estilo del contenido principal */
 ion-content {
-  --background: #eb90eb;  
+  --background: #eb90eb;   
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Para que el contenido quede repartido y el carrusel quede al final */
@@ -28,7 +31,7 @@ ion-content {
   background-color: #4b2a00 !important; 
   color: white !important;              
   border-radius: 20px;                  
-  padding: 10px;                           /* Tamaño del botón */
+  padding: 2px;                           
   transition: background-color 0.3s ease; /* Animación de color de fondo */
 }
 
@@ -37,7 +40,8 @@ ion-content {
 }
 
 .welcome-card {
-  background-color: white; 
+  background-color: #f297d4; /* Color de fondo del card */
+  color: white !important; 
   border-radius: 10px;       /* Esquinas redondeadas */
   padding: 15px;           
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -50,6 +54,7 @@ ion-content {
 /* Animaciones */
 .animated-text {
   animation: fadeIn 3s ease-in-out;
+  color: white !important; 
 }
 
 @keyframes fadeIn {
@@ -101,17 +106,18 @@ ion-content {
 }
 
 img {
-  width: 80%; 
+  width: 80%; /*imágenes más pequeñas */
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
-/* Efecto zoom al pasar el cursor */
+/* Efecto zoom*/
 img:hover {
   transform: scale(1.1); /* Efecto de zoom  */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
+
 
 

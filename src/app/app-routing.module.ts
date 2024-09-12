@@ -19,6 +19,18 @@ const routes: Routes = [
     path: 'registro',
     loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
   },
+  {
+    path: 'reset',
+    loadChildren: () => import('./reset/reset.module').then( m => m.ResetPageModule)
+  },
+  {
+    path: 'reset',
+    loadChildren: () => import('./reset/reset.module').then( m => m.ResetPageModule)
+  },
+  {
+    path: 'reset',
+    loadChildren: () => import('./reset/reset.module').then( m => m.ResetPageModule)
+  },
 ];
 
 @NgModule({
